@@ -11,9 +11,13 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_google_places_sdk_platform_interface:
-    path: ../flutter_google_places_sdk_platform_interface
+    git:
+      url: https://github.com/wopta/flutter_google_places_sdk.git
+      path: flutter_google_places_sdk_platform_interface
   flutter_google_places_sdk_http:
-    path: ../flutter_google_places_sdk_http
+    git:
+      url: https://github.com/wopta/flutter_google_places_sdk.git
+      path: flutter_google_places_sdk_http
 
 dev_dependencies:
   flutter_lints: ^2.0.1
